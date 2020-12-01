@@ -11,7 +11,7 @@ body {
 }
 .banner {
     min-height: 70vh;
-    background: url('/images/banner.png');
+    background: url('/2018/images/banner.png');
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -185,7 +185,7 @@ input[type="checkbox"] + label::before {
     }
     .banner {
         margin-bottom: 0;
-        background: url('/images/banner_m.png');
+        background: url('/2018/images/banner_m.png');
         background-position: center center;
         background-size: contain;
         background-repeat: no-repeat;

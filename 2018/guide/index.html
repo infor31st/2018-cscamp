@@ -6,13 +6,56 @@
 -->
 <html>
     <head>
-        <%- include('head'); %>
+        <title>簡介 | 資意成楓建美景 - 2018 建成楓景聯合電資暑訓</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<base href="/2018/">
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+<link rel="stylesheet" href="assets/css/main.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosanstc.css">
+<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+<meta property="og:title" content="《資意成楓建美景》2018 建成楓景聯合電資暑訓" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://cscamp.infor.org/2018/" />
+<meta property="og:image" content="https://cscamp.infor.org/2018/images/logo.png" />
+<meta property="og:description" content="由建國中學資訊社、成功高中電子計算機研習社、中山女高資訊研究社、景美女中電腦資訊社這幾個充滿熱忱的高中社團聯合舉辦。暑訓將以實作課程為主，加上企業參訪、有趣的活動，號召有興趣的國中畢業生一同探索資訊的世界。透過我們的營隊，同學將能更進一步了解什麼是資訊科技，培養進一步的資訊能力。" />
+<link rel="stylesheet" href="assets/css/style.css" />
     </head>
     <body>
         <!-- Wrapper -->
         <div id="wrapper">
         <!-- Header -->
-        <%- include('header'); %>
+        <header id="header">
+<div class="inner">
+    <!-- Logo -->
+        <a href="/2018/" class="logo"><span class="title">資意成楓建美景</span></a>
+    <!-- Nav -->
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+            </ul>
+        </nav>
+</div>
+</header>
+<!-- Menu -->
+<nav id="menu">
+<h2>選單</h2>
+<ul>
+    <li><a href="/2018/">首頁</a></li>
+    <li><a href="guide/">營隊簡介</a></li>
+    <li><a href="register/">報名須知</a></li>
+    <li><a href="schedule/">營隊課表</a></li>
+    <li><a href="guide/#crew">團隊陣容</a></li>
+    <li><a href="history/">歷年精華</a></li>
+    <li><a href="qna/">Q &amp; A</a></li>
+    
+    <a href="register/" class="register button special">報名截止</a>
+    
+</ul>
+</nav>
         <!-- Main -->
             <div class="main guide">
                 <div class="inner">
@@ -55,7 +98,30 @@
                 </div>
             </div>
         <!-- Footer --> 
-        <%- include('footer'); %>
+        <footer id="footer">
+    <div class="inner">
+        <ul class="actions">
+        <li><a href="https://www.facebook.com/infor31st" target="_blank" class="icon style1 fa-facebook-square">&nbsp; 建中資訊 INFOR 31st</a></li>
+        <li><a href="https://www.facebook.com/club.ckcsc.info/" target="_blank" class="icon style1 fa-facebook-square">&nbsp; 成功電研 CKCSC 31st</a></li>
+        <li><a href="https://www.facebook.com/zsisc25" target="_blank" class="icon style1 fa-facebook-square">&nbsp; 中山資研 ZSISC 25th</a></li>
+        <li><a href="https://www.facebook.com/CMIOC25" target="_blank" class="icon style1 fa-facebook-square">&nbsp; 景美電資 CMIOC 25th</a></li>
+        </ul>
+        <ul class="copyright">
+        <li>Made by <a target="_blank" href="https://about.stoneapp.tech/t510599">Tony Yang</a></li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+    </div>
+</footer>
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-119048531-1', 'auto');
+    ga('send', 'pageview');
+</script>
+
         </div>
         <!-- Scripts -->
         <script src="assets/js/jquery.min.js"></script>
